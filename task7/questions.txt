@@ -1,0 +1,45 @@
+
+Interview Questions & Answers: Browser Extensions Security
+
+1. How can browser extensions pose security risks?
+Browser extensions can pose risks by accessing sensitive data such as browsing history, login credentials, and website content. Malicious or poorly coded extensions can inject scripts, steal personal information, redirect web traffic, or even install additional malware.
+
+2. What permissions should raise suspicion?
+Suspicious permissions include:
+- "Read and change all your data on the websites you visit"
+- "Access your tabs and browsing activity"
+- "Access to file URLs"
+- "Manage your downloads"
+- "Change your privacy-related settings"
+These permissions may be necessary for legitimate use but can be exploited by malicious extensions.
+
+3. How to safely install browser extensions?
+- Install only from official browser stores (e.g., Chrome Web Store).
+- Check the developer's credibility.
+- Read user reviews and ratings.
+- Review permissions before installation.
+- Avoid extensions with few downloads or unclear purposes.
+
+4. What is extension sandboxing?
+Extension sandboxing is a security feature that isolates an extension’s processes from the main browser and other extensions. This limits the damage an extension can do if compromised, preventing it from affecting core browser functionality or accessing unauthorized data.
+
+5. Can extensions steal passwords?
+Yes, malicious extensions can steal passwords if they have permission to read data on web pages. Some even mimic password managers or form fillers. Always avoid granting full access permissions unless absolutely necessary.
+
+6. How to update extensions securely?
+- Allow automatic updates from the browser’s extension settings.
+- Avoid downloading updates or extensions from third-party websites.
+- Periodically check for updates via the browser’s extension manager.
+
+7. Difference between extensions and plugins?
+- **Extensions**: Lightweight add-ons built using HTML, CSS, and JavaScript to modify browser behavior.
+- **Plugins**: External programs (e.g., Flash, Java) used to handle content not natively supported by browsers.
+Most modern browsers no longer support traditional plugins due to security concerns.
+
+8. How to report malicious extensions?
+- On Chrome Web Store: Open the extension's page, click “Report abuse,” and provide details.
+- On Firefox Add-ons: Use the “Report this add-on” link.
+- Additionally, contact browser support or use official feedback forms.
+
+Prepared by: Sajad Hussain MAlla
+Date: June 5, 2025

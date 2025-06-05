@@ -1,0 +1,76 @@
+
+Task 7 Report: Identify and Remove Suspicious Browser Extensions
+
+Objective:
+To identify potentially harmful browser extensions and remove any unnecessary or suspicious ones to ensure browser security and performance.
+
+Browser Used:
+- Google Chrome (Version 125.0.6422.141)
+
+Extension Review Summary:
+
+1. ExpressVPN: VPN proxy for a better internet
+   - Source: Chrome Web Store
+   - Description: Go online safely with blazing-fast speed. Spoof your location, access content anywhere.
+   - Version: 6.1.1.6774 | Size: 9.5 MB
+   - Permissions:
+     • Read your browsing history
+     • Block content on any page
+     • Display notifications
+     • Communicate with cooperating native applications
+     • Change privacy-related settings
+     • Full site access
+   - Evaluation: High permissions expected for VPNs. Trusted source and functionality verified.
+   - Action Taken: Kept
+
+2. Google Docs Offline
+   - Source: Installed by default (Google)
+   - Description: Edit, create, and view your documents offline.
+   - Version: 1.92.1 | Size: <1 MB
+   - Permissions:
+     • Access only Google Docs & Drive domains
+   - Evaluation: Safe and limited in scope. Developed by Google.
+   - Action Taken: Kept
+
+3. McAfee® WebAdvisor
+   - Source: Added by a third-party
+   - Description: Provides security alerts and protects from dangerous websites.
+   - Version: 8.1.0.6519 | Size: 21.2 MB
+   - Permissions:
+     • Read and change site data
+     • Access file URLs
+     • Operate in Incognito mode
+   - Evaluation: From a well-known security vendor. Can be heavy and intrusive. Only keep if actively used.
+   - Action Taken: Kept (Recommended to review usefulness)
+
+4. Picture-in-Picture Extension (by Google)
+   - Source: Chrome Web Store
+   - Description: Watch video in a floating window.
+   - Version: 1.14 | Size: <1 MB
+   - Permissions:
+     • Full site access
+     • Access file URLs
+   - Evaluation: Useful, lightweight, secure extension by Google.
+   - Action Taken: Kept
+
+Permissions Analysis:
+- ExpressVPN: High-level access necessary for VPN use.
+- Google Docs Offline: Minimal, safe.
+- McAfee WebAdvisor: Trusted but added by third-party. Consider if not needed.
+- Picture-in-Picture: Standard permissions, Google-verified.
+
+Final Actions Taken:
+- No suspicious extensions found.
+- All extensions retained.
+- Optional recommendation to review and remove McAfee WebAdvisor if unused.
+
+Security Awareness Gained:
+- Browser extensions can access sensitive data and behavior. Always use verified ones.
+- Periodic auditing is important for maintaining security and performance.
+
+Outcome:
+✅ All extensions verified as safe.
+⚠️ McAfee WebAdvisor flagged for review if not actively used.
+
+Prepared by: [Your Name]
+Date: June 5, 2025
